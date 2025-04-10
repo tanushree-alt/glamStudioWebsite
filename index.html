@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <title>GlamStudio</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+          <img src="img9.jpg" alt="Header Image"> 
+        </div>
+        <div class="RequestInfoBtn">
+          <button>REQUEST INFO</button>
+        </div>
+        <div class="scroll-container">
+          <button>&darr;</button>
+        </div>
+    </div>
+    <div class="box">
+    <h1>
+        GLAM STUDIO 
+    </h1>
+    <h2>
+        CONTACT
+    </h2>
+    <h3>
+        Submit the form now to start the process and we will take it from here 
+    </h3>
+</div>
+
+<main>
+    <div class="form-container">
+      <form id="contactForm" action="#" method="POST" onsubmit="return validateForm()">
+        <div class="form-field">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+        </div>
+
+        <div class="form-field">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+
+        <div class="form-field">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Enter your phone number (10 digits)">
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+        </div>
+
+        <div class="message1">
+            <p>By submitting this form you consent to be contacted by GlamStudio via email or phone or both, and you agree to our terms and conditions.</p>
+          </div>
+
+        <div class="form-field">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+    <p class="message2">
+        Submit the form now to start the process and we will take it from here. 
+    </p>
+
+    <p class="message3">
+        We encourage you to contact us as soon as possible to avoid any delays in making booking with us.
+    </p>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3 id="highlight"> ABOUT US </h3>
+            <h3> Mission and vission </h3>
+            <h3> Brands </h3>
+        </div>
+
+        <div>
+            <h3 id ="highlight"> SERVICES</h3>
+            <h3> Floor wraps </h3>
+            <h3> Welcome Boards </h3>
+        </div>
+      </footer>
+</body>
+</html>

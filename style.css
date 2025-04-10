@@ -1,0 +1,161 @@
+h1{
+    margin-top: 200px;
+}
+.box{
+    background-color: darkblue;
+    text-align: center;
+    color: floralwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    background-color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 9999; 
+  }
+
+  .logo {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .RequestInfoBtn {
+    flex: 0 0 30%; /* 30% width */
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .RequestInfoBtn button {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .scroll-container {
+    flex: 0 0 10%; 
+    text-align: center;
+  }
+
+  .scroll-container button {
+    background: darkblue;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-field input, .form-field textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-field textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-field button {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-field button:hover {
+    background-color: #555;
+}
+
+.message2{
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.message3{
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:beige;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#highlight{
+    color: chocolate;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .footer .footer-content p {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
